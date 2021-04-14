@@ -5,6 +5,7 @@ Helper scripts for importing REAPER track position data into After Effects for s
 ## Usage
 
 **Note:** This script expects you have Python 3 installed and in your `PATH` as `python`, as well as the packages listed in `requirements.txt`.
+Alternatively, you can grab the latest release from the releases page, but this is not going to be updated often and thus is not recommended. 
 
 1. Grab the source of this repo.
 2. Put the `.jsx` and `.py` file into your After Effects' ScriptUI Panels folder (`Support Files/Scripts/ScriptUI Panels/`).
