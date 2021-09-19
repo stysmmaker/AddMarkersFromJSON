@@ -1,5 +1,4 @@
 import json, sys, rpp
-from rich import print
 
 def getSecondsFromPPQ(tempo, ppq, offset):
     microseconds_per_tick = (60000 / tempo * 1000) / ppq
@@ -37,7 +36,6 @@ try:
                                 tick_offset += int(midiData[1])
                             
                     else:
-                        print(itemType)
                         trackList[trackName].append(itemPos)
         
         if (len(sys.argv) > 2):
